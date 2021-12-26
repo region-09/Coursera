@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pseudo Class Selectors</title>
+<style>
+    header li {
+        list-style: none;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        background-color: green;
+        border: 1px solid blue;
+        color: black;
+        display: block;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 1px;
+    }
+    a:hover, a:active {
+        background-color: red;
+        color: purple;
+    }
+    header li:nth-child(3) {
+        font-size: 24px;
+    }
+    section div:nth-child(odd) {
+        background-color: gray;
+    }
+    section div:nth-child(4):hover {
+        background-color: green;
+        cursor:pointer;
+    }
+</style>
+</head>
+<body>
+    <h1>Pseudo Class Selectors</h1>
+    <header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="https://canvas.elte.hu/courses/19984/" target="_blank">Canvas</a></li>
+            <li><a href="https://people.inf.elte.hu/fx29ql/hw1.html" target="_blank">My page bitches</a></li>
+        </ul>
+    </header>
+    <section>
+        <div>DIV 1</div>
+        <div>DIV 2</div>
+        <div>DIV 3</div>
+        <div>DIV 4</div>
+        <div>DIV 5</div>
+        <div>DIV 6</div>
+        <div>DIV 7</div>
+        <div>DIV 8</div>
+        <div>DIV 9</div>
+    </section>
+</body>
+</html>
