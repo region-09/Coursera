@@ -9,7 +9,10 @@
     font-size: 1.8em;
     margin-top: 10px;
 }
-
+.box {
+    height: 400px;
+    margin: 15px;
+}
 #div1 {
     background-color:brown;
     font-size: 1.4em;
