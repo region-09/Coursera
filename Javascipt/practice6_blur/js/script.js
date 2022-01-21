@@ -8,8 +8,5 @@ $(function () {// Same as document.addEventListener("DOMContentLoaded"...)
            $("#collapsable-nav").collapse('hide');
        } 
     });
-    $("#navbarToggle").click(function (event) {
-        $(event.target).focus();
-    });
 });
 /********* End For using Blur ****************/
